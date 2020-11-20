@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.Domain", "VacationManager.Domain", "{0B2E021E-55A6-4E82-9B0B-48BF8F4F414F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.Application", "VacationManager.Application", "{7B7D8C9F-82F3-4483-B4AE-1567A36AB621}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.Infrastracture", "VacationManager.Infrastracture", "{5B0638ED-5633-4DD7-AE01-8B4F3B15BA22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.UI.MVC", "VacationManager.UI.MVC", "{E6197E94-3E0F-40A6-9E77-4958972F7DB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.Persistence", "VacationManager.Persistence", "{E525C115-976E-428A-9E69-14943F9BC75F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VacationManager.Common", "VacationManager.Common", "{49231456-DCA1-4628-B438-FFE6705013A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacationManager.MVC", "VacationManager.MVC\VacationManager.MVC.csproj", "{2C53D0F7-3120-4012-9BB3-A0002500EF69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C53D0F7-3120-4012-9BB3-A0002500EF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C53D0F7-3120-4012-9BB3-A0002500EF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C53D0F7-3120-4012-9BB3-A0002500EF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C53D0F7-3120-4012-9BB3-A0002500EF69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C53D0F7-3120-4012-9BB3-A0002500EF69} = {E6197E94-3E0F-40A6-9E77-4958972F7DB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A62FFB5-C5B3-4163-98F3-26E44AFCF4BE}
+	EndGlobalSection
+EndGlobal
