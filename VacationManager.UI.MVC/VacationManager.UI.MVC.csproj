@@ -14,10 +14,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VacationManager.Application\VacationManager.Application.csproj" />
     <ProjectReference Include="..\VacationManager.Domain\VacationManager.Domain.csproj" />
     <ProjectReference Include="..\VacationManager.Persistence\VacationManager.Persistence.csproj" />
   </ItemGroup>

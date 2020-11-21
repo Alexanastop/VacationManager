@@ -2,18 +2,19 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
+using VacationManager.Application.Interfaces;
 using VacationManager.Domain.Entities;
 
 namespace VacationManager.Persistence
 {
-	public class VacationManagerDbContext : IdentityDbContext<Employee>
+	public class VacationManagerDbContext : IdentityDbContext<Employee>, IVacationManagerDbContext
 	{
 		public VacationManagerDbContext(DbContextOptions<VacationManagerDbContext> options)
 			: base(options)
 		{	
         }
 
-		public DbSet<Application> Applications { get; set; }
+		public DbSet<App> Applications { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{
@@ -47,6 +48,8 @@ namespace VacationManager.Persistence
 			{
 				entity.ToTable("EmployeeTokens");
 			});
+
+			builder.ApplyConfigurationsFromAssembly(typeof(VacationManagerDbContext).Assembly);
 		}
 	}
 }

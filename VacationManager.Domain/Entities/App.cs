@@ -2,7 +2,7 @@
 
 namespace VacationManager.Domain.Entities
 {
-	public class Application
+	public class App
 	{
 		public int Id { get; set; }
 		public DateTime DateSubmited { get; set; }

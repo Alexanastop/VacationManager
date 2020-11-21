@@ -1,15 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using VacationManager.Domain.Entities;
 
 namespace VacationManager.Persistence.Configurations
 {
-	class ApplicationConfiguration : IEntityTypeConfiguration<Application>
+	class ApplicationConfiguration : IEntityTypeConfiguration<App>
 	{
-		public void Configure(EntityTypeBuilder<Application> builder)
+		public void Configure(EntityTypeBuilder<App> builder)
 		{
 			builder.HasKey(p => p.Id);
 
@@ -23,7 +20,7 @@ namespace VacationManager.Persistence.Configurations
 
 			builder.Property(p => p.Reason).IsRequired();
 
-			builder.Property(p => p.EmployeeId).IsRequired().HasColumnType("int");
+			builder.Property(p => p.EmployeeId).IsRequired();
 
 			builder.HasOne(a => a.Employee)
 				.WithMany()

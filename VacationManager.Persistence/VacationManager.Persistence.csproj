@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VacationManager.Application\VacationManager.Application.csproj" />
     <ProjectReference Include="..\VacationManager.Domain\VacationManager.Domain.csproj" />
   </ItemGroup>
 

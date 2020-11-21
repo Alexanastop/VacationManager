@@ -7,6 +7,6 @@ namespace VacationManager.Domain.Entities
 	{
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
-		public ICollection<Application> Applications { get; set; }
+		public ICollection<App> Applications { get; set; }
 	}
 }
