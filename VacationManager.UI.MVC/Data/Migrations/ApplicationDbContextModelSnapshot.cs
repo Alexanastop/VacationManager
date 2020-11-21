@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using VacationManager.MVC.Data;
+using VacationManager.UI.MVC.Data;
 
-namespace VacationManager.MVC.Data.Migrations
+namespace VacationManager.UI.MVC.Data.Migrations
 {
 	[DbContext(typeof(ApplicationDbContext))]
 	partial class ApplicationDbContextModelSnapshot : ModelSnapshot

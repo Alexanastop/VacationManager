@@ -12,3 +12,4 @@ namespace VacationManager.Persistence
 		}
 	}
 }
+

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using VacationManager.MVC.Models;
+using VacationManager.UI.MVC.Models;
 
-namespace VacationManager.MVC.Controllers
+namespace VacationManager.UI.MVC.Controllers
 {
 	public class HomeController : Controller
 	{

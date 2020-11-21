@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace VacationManager.MVC.Data
+namespace VacationManager.UI.MVC.Data
 {
 	public class ApplicationDbContext : IdentityDbContext
 	{

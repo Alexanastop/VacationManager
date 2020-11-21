@@ -1,6 +1,6 @@
 using System;
 
-namespace VacationManager.MVC.Models
+namespace VacationManager.UI.MVC.Models
 {
 	public class ErrorViewModel
 	{

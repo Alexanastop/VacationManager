@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace VacationManager.MVC
+namespace VacationManager.UI.MVC
 {
 	public class Program
 	{
