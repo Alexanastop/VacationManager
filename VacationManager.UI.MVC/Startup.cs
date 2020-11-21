@@ -27,9 +27,9 @@ namespace VacationManager.UI.MVC
 					Configuration.GetConnectionString("DefaultConnection")));
 
 			services.AddIdentity<Employee, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
-				.AddEntityFrameworkStores<VacationManagerDbContext>();
-				//.AddDefaultUI()
-				//.AddDefaultTokenProviders();
+				.AddEntityFrameworkStores<VacationManagerDbContext>()
+				.AddDefaultUI()
+				.AddDefaultTokenProviders();
 
 			services.AddControllersWithViews();
 			services.AddRazorPages();
